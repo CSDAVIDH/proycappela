@@ -22,7 +22,7 @@ export default function Testimonials() {
             >
               {/* Decorative quote */}
               <span className="font-heading text-8xl text-nude/40 absolute top-2 right-6 leading-none select-none pointer-events-none">
-                "
+                &ldquo;
               </span>
 
               {/* Stars */}
@@ -34,7 +34,7 @@ export default function Testimonials() {
 
               {/* Quote */}
               <p className="font-body text-cacao/80 text-sm leading-relaxed mb-8 relative z-10">
-                "{t.text}"
+                &ldquo;{t.text}&rdquo;
               </p>
 
               {/* Author */}
