@@ -4,10 +4,10 @@ import { SectionHeader, Button } from "@/components/ui";
 
 export default function Collections() {
   return (
-    <section id="collections" className="py-28 px-6 lg:px-10 bg-cream">
+    <section id="collections" className="py-16 sm:py-20 lg:py-28 px-4 sm:px-6 lg:px-10 bg-cream">
       <div className="max-w-7xl mx-auto">
 
-        <SectionHeader eyebrow="Nuestras Piezas" title="Colecciones" className="mb-16" />
+        <SectionHeader eyebrow="Nuestras Piezas" title="Colecciones" className="mb-10 sm:mb-16" />
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -51,7 +51,7 @@ export default function Collections() {
           ))}
         </div>
 
-        <div className="text-center mt-14">
+        <div className="text-center mt-10 sm:mt-14">
           <Button variant="outline" size="lg">Ver todas las colecciones</Button>
         </div>
 

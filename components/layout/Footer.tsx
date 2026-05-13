@@ -10,13 +10,13 @@ export default function Footer() {
 
       {/* Newsletter */}
       <div className="border-b border-cream/10">
-        <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16">
-          <div className="grid lg:grid-cols-2 gap-10 items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-12 sm:py-16">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-10 items-center">
             <div>
               <p className="font-body text-nude text-[10px] tracking-[0.5em] uppercase mb-3">
                 Newsletter
               </p>
-              <h3 className="font-heading text-3xl font-medium mb-2">
+              <h3 className="font-heading text-2xl sm:text-3xl font-medium mb-2">
                 Únete al mundo caPpela
               </h3>
               <p className="font-body text-cream/55 text-sm leading-relaxed">
@@ -46,8 +46,8 @@ export default function Footer() {
       </div>
 
       {/* Links grid */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-12 sm:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12">
 
           {/* Brand */}
           <div>
@@ -108,7 +108,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-cream/10">
-        <div className="max-w-7xl mx-auto px-6 lg:px-10 py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="font-body text-cream/35 text-xs tracking-widest">
             © 2025 caPpela. Todos los derechos reservados.
           </p>

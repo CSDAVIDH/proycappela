@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen min-h-[680px] overflow-hidden">
+    <section className="relative h-screen min-h-[600px] overflow-hidden">
 
       <Image
         src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1920&q=85"
@@ -20,28 +20,28 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative h-full flex items-center">
-        <div className="max-w-7xl mx-auto px-6 lg:px-10 w-full">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 w-full">
           <div className="max-w-xl pt-20">
-            <p className="font-body text-nude text-[10px] tracking-[0.5em] uppercase mb-7">
+            <p className="font-body text-nude text-[10px] tracking-[0.5em] uppercase mb-5 sm:mb-7">
               Nueva Colección · 2025
             </p>
-            <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl text-cream font-medium leading-[1.08] mb-7">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-cream font-medium leading-[1.08] mb-5 sm:mb-7">
               Elegancia<br />que define<br />tu estilo
             </h1>
-            <p className="font-body text-cream/75 text-base lg:text-lg leading-relaxed mb-10 max-w-sm">
+            <p className="font-body text-cream/75 text-sm sm:text-base lg:text-lg leading-relaxed mb-8 sm:mb-10 max-w-sm">
               Piezas únicas que fusionan sofisticación contemporánea con
               feminidad atemporal.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
                 href="#collections"
-                className="bg-cream text-chocolate font-body text-[11px] tracking-[0.22em] uppercase px-9 py-4 hover:bg-nude transition-colors duration-300"
+                className="bg-cream text-chocolate font-body text-[11px] tracking-[0.22em] uppercase px-7 sm:px-9 py-3.5 sm:py-4 hover:bg-nude transition-colors duration-300"
               >
                 Explorar colección
               </Link>
               <Link
                 href="#"
-                className="border border-cream/60 text-cream font-body text-[11px] tracking-[0.22em] uppercase px-9 py-4 hover:bg-cream/10 transition-colors duration-300"
+                className="border border-cream/60 text-cream font-body text-[11px] tracking-[0.22em] uppercase px-7 sm:px-9 py-3.5 sm:py-4 hover:bg-cream/10 transition-colors duration-300"
               >
                 Nuestra historia
               </Link>

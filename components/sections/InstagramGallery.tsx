@@ -5,7 +5,7 @@ import { Button, InstagramIcon } from "@/components/ui";
 
 export default function InstagramGallery() {
   return (
-    <section className="py-28 px-6 lg:px-10 bg-cream">
+    <section className="py-16 sm:py-20 lg:py-28 px-4 sm:px-6 lg:px-10 bg-cream">
       <div className="max-w-7xl mx-auto">
 
         {/* Header */}
@@ -48,7 +48,7 @@ export default function InstagramGallery() {
           ))}
         </div>
 
-        <div className="text-center mt-10">
+        <div className="text-center mt-8 sm:mt-10">
           <Button variant="outline" size="lg">Ver más en Instagram</Button>
         </div>
 
